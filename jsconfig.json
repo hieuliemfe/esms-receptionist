@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "http://api.esms-team.site",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
