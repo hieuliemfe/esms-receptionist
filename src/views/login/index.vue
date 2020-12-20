@@ -125,6 +125,7 @@ export default {
           addToWaiting(this.loginForm)
             .then(() => {
               this.loading = false
+              this.$refs.loginForm.resetFields()
             })
             .catch(() => {
               this.loading = false
